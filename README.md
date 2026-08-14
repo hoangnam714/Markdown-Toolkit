@@ -9,9 +9,9 @@ Built for **AnyNote** and available as a local Swift package for other host apps
 ## Demo
 
 <p align="center">
-  <img src="Docs/demo-note.png" alt="Rich note: code, todo, table, audio, drawing" width="280" />
+ <img width="471" height="1024" alt="demo-note" src="https://github.com/user-attachments/assets/934f68d4-f6cf-4cad-9c7e-0fb3bcdf4f62" />
   &nbsp;&nbsp;
-  <img src="Docs/demo-canvas.png" alt="Canvas board with handwriting and stickers" width="280" />
+  <img width="471" height="1024" alt="demo-canvas" src="https://github.com/user-attachments/assets/c7b61a8e-e8f5-40c1-a88d-d39fc43dccd1" />
 </p>
 
 | | |
@@ -197,33 +197,11 @@ let bridge = EditorBridge(customItems: [ai])
 
 ---
 
-## Local setup
-
-```swift
-dependencies: [
-    .package(path: "../MarkdownToolkit")
-]
-```
-
-Main source layout:
-
-```
-Sources/MarkdownToolkit/
-  Editor/     TextView, Toolbar, Attachments, Formatting, Utilities
-  Freeform/   Canvas board
-  Stickers/   Sticker collections
-  Shared/     Shared helpers
-```
-
----
 
 ## Contact
 
 - **Email:** [Huynhvohoangnam714@gmail.com](mailto:Huynhvohoangnam714@gmail.com)
 - **WhatsApp:** scan the QR code below
-
-<p align="center">
-  <img src="Docs/whatsapp-qr.png" alt="WhatsApp QR" width="200" />
-</p>
+<img width="273" height="280" alt="whatsapp-qr" src="https://github.com/user-attachments/assets/d5bb11ef-50d6-4ce6-983f-85e2911425ca" />
 
 - **AnyNote TestFlight:** https://testflight.apple.com/join/sXvaJgDs
