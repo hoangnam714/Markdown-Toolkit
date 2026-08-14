@@ -166,29 +166,6 @@ Also:
 
 ---
 
-## Custom toolbar (host)
-
-```swift
-let ai = EditorToolbarCustomItem(
-    id: "ai",
-    systemImageName: "sparkles",
-    accessibilityLabel: "AI Assist",
-    menu: [
-        EditorToolbarCustomMenuEntry(
-            id: "ai.continue",
-            title: "Continue Writing",
-            systemImageName: "text.append"
-        )
-    ],
-    placement: .afterInsert
-)
-
-let bridge = EditorBridge(customItems: [ai])
-// Handle EditorToolbarAction.custom("ai.continue") in the host.
-```
-
----
-
 ## Persistence
 
 - Rich text: **RTFD**
